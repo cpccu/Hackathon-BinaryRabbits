@@ -14,6 +14,7 @@ export function ManageEventsPage() {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
+  const formRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   
   const [formData, setFormData] = useState({
@@ -72,27 +73,69 @@ export function ManageEventsPage() {
     reader.readAsDataURL(file);
   };
 
+  const toLocalDateString = (date: Date) => {
+    if (isNaN(date.getTime())) return new Date().toISOString().split('T')[0];
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  };
+
+  const toLocalTimeString = (date: Date) => {
+    if (isNaN(date.getTime())) return '10:00';
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    return `${hours}:${minutes}`;
+  };
+
   const handleEdit = (ev: CampusEvent) => {
-    setEditingId(ev.id);
-    const startObj = ev.startTime.toDate();
-    const regObj = ev.registrationDeadline ? ev.registrationDeadline.toDate() : startObj;
-    
-    setFormData({
-      title: ev.title,
-      department: ev.tags?.[0] || '',
-      clubId: ev.clubId,
-      venue: ev.venue,
-      regStartDate: regObj.toISOString().split('T')[0], // Simplified
-      regEndDate: regObj.toISOString().split('T')[0],
-      eventDate: startObj.toISOString().split('T')[0],
-      eventTime: startObj.toTimeString().slice(0, 5),
-      eventType: ev.eventType || 'other',
-      capacity: ev.capacity || 100,
-      bannerUrl: ev.bannerUrl || '',
-      isPayable: ev.isPayable || false,
-      ticketPrice: ev.ticketPrice || 0
-    });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    try {
+      setEditingId(ev.id);
+      
+      let startObj = new Date();
+      if (ev.startTime) {
+        if (typeof (ev.startTime as any).toDate === 'function') {
+          startObj = (ev.startTime as any).toDate();
+        } else if (ev.startTime instanceof Date) {
+          startObj = ev.startTime;
+        } else {
+          startObj = new Date(ev.startTime as any);
+        }
+      }
+
+      let regObj = startObj;
+      if (ev.registrationDeadline) {
+        if (typeof (ev.registrationDeadline as any).toDate === 'function') {
+          regObj = (ev.registrationDeadline as any).toDate();
+        } else if (ev.registrationDeadline instanceof Date) {
+          regObj = ev.registrationDeadline;
+        } else {
+          regObj = new Date(ev.registrationDeadline as any);
+        }
+      }
+      
+      setFormData({
+        title: ev.title || '',
+        department: ev.tags?.[0] || '',
+        clubId: ev.clubId || '',
+        venue: ev.venue || '',
+        regStartDate: toLocalDateString(regObj),
+        regEndDate: toLocalDateString(regObj),
+        eventDate: toLocalDateString(startObj),
+        eventTime: toLocalTimeString(startObj),
+        eventType: ev.eventType || 'other',
+        capacity: ev.capacity || 100,
+        bannerUrl: ev.bannerUrl || '',
+        isPayable: ev.isPayable || false,
+        ticketPrice: ev.ticketPrice || 0
+      });
+      setTimeout(() => {
+        formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
+    } catch (error) {
+      console.error("Error setting edit data:", error);
+      toast.error('Failed to load event details for editing');
+    }
   };
 
   const handleCancelEdit = () => {
@@ -163,7 +206,7 @@ export function ManageEventsPage() {
       </div>
       
       {/* Create/Edit Event Form */}
-      <div className="bg-card text-card-foreground border border-border p-6 rounded-xl shadow-sm">
+      <div ref={formRef} className="bg-card text-card-foreground border border-border p-6 rounded-xl shadow-sm">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl font-bold">{editingId ? 'Update Event' : 'Create New Event'}</h2>
           {editingId && (
