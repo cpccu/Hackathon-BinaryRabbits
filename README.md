@@ -108,16 +108,6 @@ npm run build
 firebase deploy
 ```
 
-## Demo Accounts
-
-Create accounts via the sign-up page, then update roles in Firestore:
-| Role | Email | Notes |
-|------|-------|-------|
-| Student | student@test.cu.edu | Default role on signup |
-| Club Executive | exec@test.cu.edu | Change role to 'club_executive' in Firestore |
-| CR | cr@test.cu.edu | Change role to 'cr' in Firestore |
-| Admin | admin@test.cu.edu | Change role to 'admin' in Firestore |
-
 ## Security
 
 Security is a first-class citizen in CU Compass:
