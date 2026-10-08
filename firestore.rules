@@ -1,0 +1,180 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+    
+    function getUserRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+    
+    function isAdmin() {
+      return getUserRole() == 'admin';
+    }
+    
+    function isFaculty() {
+      return getUserRole() == 'faculty';
+    }
+    
+    function isCR() {
+      return getUserRole() == 'cr';
+    }
+    
+    function isEventManager() { return getUserRole() == 'event_manager'; }
+    function isResourceManager() { return getUserRole() == 'resource_manager'; }
+    function isComplaintManager() { return getUserRole() == 'complaint_manager'; }
+    function isNoticeManager() { return getUserRole() == 'notice_manager'; }
+    function isClubExecutive() {
+      return getUserRole() == 'club_executive';
+    }
+    
+    // Users collection
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isOwner(userId);
+      allow update: if isAuthenticated() && (isOwner(userId) || isAdmin());
+      allow delete: if isAdmin();
+    }
+    
+    // Clubs
+    match /clubs/{clubId} {
+      allow read: if true;  // Public readable
+      allow create, update, delete: if isAuthenticated() && isAdmin();
+    }
+    
+    // Events
+    match /events/{eventId} {
+      allow read: if true;
+      allow create: if isAuthenticated() && (isClubExecutive() || isEventManager() || isAdmin());
+      allow update: if isAuthenticated() && (isAdmin() || isEventManager() || (isClubExecutive() && resource.data.createdBy == request.auth.uid));
+      allow delete: if isAuthenticated() && (isAdmin() || isEventManager());
+    }
+    
+    // Saved Resources
+    match /savedResources/{savedId} {
+      allow read: if isAuthenticated() && isOwner(resource.data.userId);
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow delete: if isAuthenticated() && isOwner(resource.data.userId);
+    }
+    
+    // Saved Events
+    match /savedEvents/{savedId} {
+      allow read: if isAuthenticated() && isOwner(resource.data.userId);
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow delete: if isAuthenticated() && isOwner(resource.data.userId);
+    }
+    
+    // Event Registrations
+    match /eventRegistrations/{regId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update: if isAuthenticated() && (isAdmin() || isEventManager() || isClubExecutive() || isOwner(resource.data.userId));
+      allow delete: if isAuthenticated() && isOwner(resource.data.userId);
+    }
+    
+    // Courses
+    match /courses/{courseId} {
+      allow read: if true;
+      allow write: if isAuthenticated() && (isAdmin() || isFaculty());
+    }
+    
+    // Resources
+    match /resources/{resourceId} {
+      allow read: if true;
+      allow create: if isAuthenticated();
+      allow update: if isAuthenticated();
+      allow delete: if isAuthenticated() && (isAdmin() || isResourceManager());
+    }
+    
+    // PYQ Metadata
+    match /pyqMetadata/{metaId} {
+      allow read: if true;
+      allow create: if isAuthenticated();
+      allow update: if isAuthenticated() && (isAdmin() || isFaculty() || isCR());
+      allow delete: if isAuthenticated() && isAdmin();
+    }
+    
+    // Bus Routes & Schedules
+    match /busRoutes/{routeId} {
+      allow read: if true;
+      allow write: if isAuthenticated() && isAdmin();
+    }
+    
+    match /busSchedules/{scheduleId} {
+      allow read: if true;
+      allow write: if isAuthenticated() && isAdmin();
+    }
+    
+    // Campus Policies
+    match /campusPolicies/{policyId} {
+      allow read: if true;
+      allow write: if isAuthenticated() && isAdmin();
+    }
+    
+
+    // Notices
+    match /notices/{noticeId} {
+      allow read: if true;
+      allow write: if isAuthenticated() && (isAdmin() || isNoticeManager());
+    }
+
+    // Urgent Notices
+    match /urgentNotices/{noticeId} {
+      allow read: if true;
+      allow create: if isAuthenticated() && (isAdmin() || isFaculty());
+      allow update, delete: if isAuthenticated() && isAdmin();
+    }
+    
+    // Lost & Found
+    match /lostFoundItems/{itemId} {
+      allow read: if true;
+      allow create: if isAuthenticated();
+      allow update: if isAuthenticated() && (
+        isOwner(resource.data.userId) || isAdmin()
+      );
+      allow delete: if isAuthenticated() && (isOwner(resource.data.userId) || isAdmin());
+    }
+    
+    // Ownership Claims
+    match /ownershipClaims/{claimId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && request.resource.data.claimantId == request.auth.uid;
+      // Claimant cannot approve own claim - finder or admin reviews
+      allow update: if isAuthenticated() && (
+        isAdmin() || 
+        // The item poster (finder) can review - but not the claimant themselves
+        (request.auth.uid != resource.data.claimantId)
+      );
+      allow delete: if isAuthenticated() && isAdmin();
+    }
+    
+    // Complaints
+    match /complaints/{complaintId} {
+      allow read: if isAuthenticated() && (
+        isOwner(resource.data.studentId) || isAdmin() || isComplaintManager() || resource.data.isAnonymous == false
+      );
+      allow create: if isAuthenticated();
+      // Only complaint owner can see own, admin can update status
+      allow update: if isAuthenticated() && (
+        isAdmin() || isComplaintManager() || 
+        (isOwner(resource.data.studentId) && 
+         request.resource.data.status == resource.data.status)  // Students can't change status
+      );
+      allow delete: if isAuthenticated() && isAdmin();
+    }
+    
+    // Notifications
+    match /notifications/{notifId} {
+      allow read: if isAuthenticated() && isOwner(resource.data.userId);
+      allow create: if isAuthenticated();
+      allow update: if isAuthenticated() && isOwner(resource.data.userId);
+      allow delete: if isAuthenticated() && isOwner(resource.data.userId);
+    }
+  }
+}

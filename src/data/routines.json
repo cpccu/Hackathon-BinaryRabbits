@@ -1,0 +1,2395 @@
+[
+  {
+    "batch": "69",
+    "section": "B",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "MATH 1101 B:69th B",
+          "course": "MATH 1101",
+          "teacher": "B:69th B",
+          "room": ""
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 1213  SH B: 69th B",
+          "course": "CSE 1213",
+          "teacher": "SH B: 69th B",
+          "room": ""
+        },
+        {
+          "time": "01:30 - 02:50",
+          "raw": "PHY 1203 RKD B: 69th B",
+          "course": "PHY 1203",
+          "teacher": "RKD B: 69th B",
+          "room": ""
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 11:45",
+          "raw": "PHY 1204 RKD  B: 69th B Ro-1009 [09:00-11:00]",
+          "course": "PHY 1204",
+          "teacher": "RKD B: 69th B",
+          "room": "1009 [09:00-11:00]"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CHE 1105 AA B: 69th B",
+          "course": "CHE 1105",
+          "teacher": "AA B: 69th B",
+          "room": ""
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "MATH 1101 B: 69th B",
+          "course": "MATH 1101",
+          "teacher": "B: 69th B",
+          "room": ""
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 1214   SH B: 69th B B Ro-221",
+          "course": "CSE 1214",
+          "teacher": "SH B: 69th B B",
+          "room": "221"
+        },
+        {
+          "time": "01:30 - 02:50",
+          "raw": "PHY 1203 RKD B: 69th B",
+          "course": "PHY 1203",
+          "teacher": "RKD B: 69th B",
+          "room": ""
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "11:50-01:10",
+          "raw": "CHE 1105 AA B: 69th B",
+          "course": "CHE 1105",
+          "teacher": "AA B: 69th B",
+          "room": ""
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CHE 1106 MSA B: 69th B [01:30-03:30] Ro- 123",
+          "course": "CHE 1106",
+          "teacher": "MSA B: 69th B [01:30-03:30]",
+          "room": "123"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "RKD": "Dr. Ranojit Kumar Dutta",
+      "SH": "Sabbir Hossen",
+      "AI": "Md. Ariful Islam",
+      "AA": "Ayesha Akter",
+      "MSA": "Md. Sujan Ali"
+    },
+    "courses": {
+      "PHY1203": "Physics \u2013 II",
+      "PHY 1204": "Physics Laboratory",
+      "CSE 1213": "Structured Programming Language",
+      "CSE 1214": "Structured Programming Language Laboratory",
+      "MATH 1101": "Differential & Integral  Calculus and Analytical Geometry",
+      "CHE 1105": "Inorganic and Physical Chemistry",
+      "CHE 1106": "Inorganic and Physical Chemistry Lab"
+    }
+  },
+  {
+    "batch": "Unknown",
+    "section": "",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "ENG 1101 MA B:70th",
+          "course": "ENG 1101",
+          "teacher": "MA B:70th",
+          "room": ""
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "BNG 1101 MSH B: 70th",
+          "course": "BNG 1101",
+          "teacher": "MSH B: 70th",
+          "room": ""
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 1111 MAM B: 70th",
+          "course": "CSE 1111",
+          "teacher": "MAM B: 70th",
+          "room": ""
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "ENG 1102 MYN  B: 70th",
+          "course": "ENG 1102",
+          "teacher": "MYN B: 70th",
+          "room": ""
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "PHY 1101 RKD B: 70th",
+          "course": "PHY 1101",
+          "teacher": "RKD B: 70th",
+          "room": ""
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 01:10",
+          "raw": "CSE 1112 MAM B: 70th Room- 213",
+          "course": "CSE 1112",
+          "teacher": "MAM B: 70th Room- 213",
+          "room": ""
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "PHY 1101 RKD B: 70th Ro-223",
+          "course": "PHY 1101",
+          "teacher": "RKD B: 70th",
+          "room": "223"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "ENG 1101 MA B: 70th",
+          "course": "ENG 1101",
+          "teacher": "MA B: 70th",
+          "room": ""
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "BNG 1101 MSH B: 70th",
+          "course": "BNG 1101",
+          "teacher": "MSH B: 70th",
+          "room": ""
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 1111 MAM B70th",
+          "course": "CSE 1111",
+          "teacher": "MAM B70th",
+          "room": ""
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "ENG 1102 MYN B70th",
+          "course": "ENG 1102",
+          "teacher": "MYN B70th",
+          "room": ""
+        }
+      ],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {},
+    "courses": {
+      "ENG 1101": "ENG 1101",
+      "ENG 1102": "ENG 1102",
+      "PHY 1101": "PHY 1101",
+      "CSE 1111": "CSE 1111",
+      "CSE 1112": "CSE 1112",
+      "BNG 1101": "BNG 1101"
+    }
+  },
+  {
+    "batch": "68",
+    "section": "B",
+    "schedule": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 11:45",
+          "raw": "Math 1203 Ro-222",
+          "course": "Math 1203",
+          "teacher": "",
+          "room": "222"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "EEE 1201 Ro-222",
+          "course": "EEE 1201",
+          "teacher": "",
+          "room": "222"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 2115 Ro-224",
+          "course": "CSE 2115",
+          "teacher": "",
+          "room": "224"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 2116 Room- 213",
+          "course": "CSE 2116",
+          "teacher": "Room- 213",
+          "room": ""
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "EVS 1203  [01:30- 03:30]  Ro-223",
+          "course": "EVS 1203",
+          "teacher": "[01:30- 03:30]",
+          "room": "223"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "Math 1203 Ro-222",
+          "course": "Math 1203",
+          "teacher": "",
+          "room": "222"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "EEE 1201 Ro-222",
+          "course": "EEE 1201",
+          "teacher": "",
+          "room": "222"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 2115 Ro-222",
+          "course": "CSE 2115",
+          "teacher": "",
+          "room": "222"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "EEE 1202 Ro-137",
+          "course": "EEE 1202",
+          "teacher": "",
+          "room": "137"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {},
+    "courses": {
+      "MATH 1203": "MATH 1203",
+      "EEE 1201": "EEE 1201",
+      "EEE 1202": "EEE 1202",
+      "EVS 1203": "EVS 1203",
+      "CSE 2115": "CSE 2115",
+      "CSE 2116": "CSE 2116"
+    }
+  },
+  {
+    "batch": "68",
+    "section": "A",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "EEE 1201 Ro-137",
+          "course": "EEE 1201",
+          "teacher": "",
+          "room": "137"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 2116 Room- 212",
+          "course": "CSE 2116",
+          "teacher": "Room- 212",
+          "room": ""
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "Math 1203 Ro-223",
+          "course": "Math 1203",
+          "teacher": "",
+          "room": "223"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 2115 Ro-226",
+          "course": "CSE 2115",
+          "teacher": "",
+          "room": "226"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "10:25 - 01:10",
+          "raw": "EEE 1202 Ro-139",
+          "course": "EEE 1202",
+          "teacher": "",
+          "room": "139"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "EVS 1203  [01:30- 03:30]  Ro-222",
+          "course": "EVS 1203",
+          "teacher": "[01:30- 03:30]",
+          "room": "222"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "EEE 1201 Ro-137",
+          "course": "EEE 1201",
+          "teacher": "",
+          "room": "137"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "Math 1203 Ro-224",
+          "course": "Math 1203",
+          "teacher": "",
+          "room": "224"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 2115 Ro-137",
+          "course": "CSE 2115",
+          "teacher": "",
+          "room": "137"
+        }
+      ],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {},
+    "courses": {
+      "MATH 1203": "MATH 1203",
+      "EEE 1201": "EEE 1201",
+      "EEE 1202": "EEE 1202",
+      "EVS 1203": "EVS 1203",
+      "CSE 2115": "CSE 2115",
+      "CSE 2116": "CSE 2116"
+    }
+  },
+  {
+    "batch": "69",
+    "section": "A",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "MATH 1101 AI B:69A",
+          "course": "MATH 1101",
+          "teacher": "AI B:69A",
+          "room": ""
+        },
+        {
+          "time": "10:25 - 11:45",
+          "raw": "CSE 1213 AH B:69A",
+          "course": "CSE 1213",
+          "teacher": "AH B:69A",
+          "room": ""
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CHE 1105 AA B: B:69A",
+          "course": "CHE 1105",
+          "teacher": "AA B: B:69A",
+          "room": ""
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CHE 1106 MSA B: B:69A [11:00-01:00] Ro- 123",
+          "course": "CHE 1106",
+          "teacher": "MSA B: B:69A [11:00-01:00]",
+          "room": "123"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "PHY 1203 RKD  B: B:69A",
+          "course": "PHY 1203",
+          "teacher": "RKD B: B:69A",
+          "room": ""
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "MATH 1101 AI B: B:69A",
+          "course": "MATH 1101",
+          "teacher": "AI B: B:69A",
+          "room": ""
+        },
+        {
+          "time": "10:25 - 11:45",
+          "raw": "CSE 1213 AH B: B:69A",
+          "course": "CSE 1213",
+          "teacher": "AH B: B:69A",
+          "room": ""
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CHE 1105 AA B: B:69A",
+          "course": "CHE 1105",
+          "teacher": "AA B: B:69A",
+          "room": ""
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 1214 AH  B: B:69A Ro-221",
+          "course": "CSE 1214",
+          "teacher": "AH B: B:69A",
+          "room": "221"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "11:50-01:10",
+          "raw": "PHY 1203 RKD B: B:69A",
+          "course": "PHY 1203",
+          "teacher": "RKD B: B:69A",
+          "room": ""
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "PHY 1204 RKD  B: B:69A Ro-1009 [01:30-03:30]",
+          "course": "PHY 1204",
+          "teacher": "RKD B: B:69A",
+          "room": "1009 [01:30-03:30]"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "RKD": "Dr. Ranojit Kumar Dutta",
+      "AH": "Ahsan  Habib",
+      "AI": "Md. Ariful Islam",
+      "AA": "Ayesha Akter",
+      "MSA": "Md. Sujan Ali"
+    },
+    "courses": {
+      "PHY1203": "Physics \u2013 II",
+      "PHY 1204": "Physics Laboratory",
+      "CSE 1213": "Structured Programming Language",
+      "CSE 1214": "Structured Programming Language Laboratory",
+      "MATH 1101": "Differential & Integral  Calculus and Analytical Geometry",
+      "CHE 1105": "Inorganic and Physical Chemistry",
+      "CHE 1106": "Inorganic and Physical Chemistry Lab"
+    }
+  },
+  {
+    "batch": "Unknown",
+    "section": "",
+    "schedule": {
+      "Course Code": [
+        {
+          "time": "Course Title",
+          "raw": "Course Title",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        },
+        {
+          "time": "Hours/Week",
+          "raw": "Theory",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        },
+        {
+          "time": "Hours/Week",
+          "raw": "Lab",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        },
+        {
+          "time": "Credit",
+          "raw": "Credit",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        },
+        {
+          "time": "Course Teacher",
+          "raw": "Course Teacher",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        }
+      ],
+      "ENG 1101": [
+        {
+          "time": "Course Title",
+          "raw": "English",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        },
+        {
+          "time": "Hours/Week - Credit",
+          "raw": "2.0",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        }
+      ],
+      "ENG 1102": [
+        {
+          "time": "Course Title",
+          "raw": "Developing English Skill Laboratory",
+          "course": "Developing English",
+          "teacher": "Skill Laboratory",
+          "room": ""
+        },
+        {
+          "time": "Hours/Week",
+          "raw": "3.0",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        },
+        {
+          "time": "Credit",
+          "raw": "1.5",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        }
+      ],
+      "PHY 1101": [
+        {
+          "time": "Course Title",
+          "raw": "Physics \u2013 I: (Mechanics, Electricity  Magnetism &  Modern Physics)",
+          "course": "Physics \u2013",
+          "teacher": "I: (Mechanics, Electricity Magnetism & Modern Physics)",
+          "room": ""
+        },
+        {
+          "time": "Hours/Week - Credit",
+          "raw": "3.0",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        }
+      ],
+      "CSE 1111": [
+        {
+          "time": "Course Title",
+          "raw": "Introduction to Computer System",
+          "course": "Introduction to",
+          "teacher": "Computer System",
+          "room": ""
+        },
+        {
+          "time": "Hours/Week - Credit",
+          "raw": "2.0",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        }
+      ],
+      "CSE 1112": [
+        {
+          "time": "Course Title",
+          "raw": "Introduction to Computer System Lab",
+          "course": "Introduction to",
+          "teacher": "Computer System Lab",
+          "room": ""
+        },
+        {
+          "time": "Hours/Week",
+          "raw": "3.0",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        },
+        {
+          "time": "Credit",
+          "raw": "1.5",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        }
+      ],
+      "BNG 1101": [
+        {
+          "time": "Course Title",
+          "raw": "Bangla Language and Literature",
+          "course": "Bangla Language",
+          "teacher": "and Literature",
+          "room": ""
+        },
+        {
+          "time": "Hours/Week - Credit",
+          "raw": "2.0",
+          "course": "",
+          "teacher": "",
+          "room": ""
+        }
+      ]
+    },
+    "teachers": {
+      "Course teacher": "Credit",
+      "A": "Credit"
+    },
+    "courses": {
+      "Course\nCode": "Course Title",
+      "PHY1203": "Physics \u2013 II: (Waves and Oscillations  Optics and Thermal Physics)",
+      "PHY 1204": "Physics Laboratory\n(Lab session based on  PHY- I & II)",
+      "MATH 1101": "Differential & Integral  Calculus and Analytical Geometry",
+      "CHE 1105": "Inorganic and Physical Chemistry",
+      "CHE 1106": "Inorganic and Physical Chemistry Lab",
+      "CSE 1213": "Structured Programming Language",
+      "CSE 1214": "Structured Programming Language Laboratory"
+    }
+  },
+  {
+    "batch": "67",
+    "section": "B",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "HIST 2105  JPKR-311",
+          "course": "HIST 2105",
+          "teacher": "",
+          "room": "JPKR-311"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 2111 UkR Ro- 311",
+          "course": "CSE 2111",
+          "teacher": "UkR",
+          "room": "311"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 2115 ASM R-211",
+          "course": "CSE 2115",
+          "teacher": "ASM",
+          "room": "R-211"
+        },
+        {
+          "time": "01:30 - 02:50",
+          "raw": "EPE 2101 MTS R-211",
+          "course": "EPE 2101",
+          "teacher": "MTS",
+          "room": "R-211"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "MATH 2105 RA R-211",
+          "course": "MATH 2105",
+          "teacher": "RA",
+          "room": "R-211"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 2117 SM R-311",
+          "course": "CSE 2117",
+          "teacher": "SM",
+          "room": "R-311"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 2112 UkR Ro-112",
+          "course": "CSE 2112",
+          "teacher": "UkR",
+          "room": "112"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "HIST 2105 JPK R 311",
+          "course": "HIST 2105",
+          "teacher": "JPK R 311",
+          "room": ""
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 2117 SM R-311",
+          "course": "CSE 2117",
+          "teacher": "SM",
+          "room": "R-311"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 2115 ASM Ro- 211",
+          "course": "CSE 2115",
+          "teacher": "ASM",
+          "room": "211"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "EPE 2101 MTS Ro- 211",
+          "course": "EPE 2101",
+          "teacher": "MTS",
+          "room": "211"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "MATH 2105 RA  Ro- 211",
+          "course": "MATH 2105",
+          "teacher": "RA",
+          "room": "211"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 01:10",
+          "raw": "CSE 2116 ASM  Ro- 212",
+          "course": "CSE 2116",
+          "teacher": "ASM",
+          "room": "212"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 2111 UkR Ro- 311",
+          "course": "CSE 2111",
+          "teacher": "UkR",
+          "room": "311"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CE 2104 TBA Ro-416",
+          "course": "CE 2104",
+          "teacher": "TBA",
+          "room": "416"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "MTH": "Md. Tasnim Hassan",
+      "JPK": "Jebonnesa Pathan Kallani",
+      "ASM": "Alifa Shanzidah Manarat",
+      "UkR": "Utpal Kanti Roy",
+      "SM": "Shikha Moni",
+      "APR": "Anwar Parvez Rony"
+    },
+    "courses": {
+      "CE  2104": "Engineering Drawing Laboratory",
+      "EPE 2101": "Engineering Professional Ethics",
+      "HIST 2105": "Bangladesh Studies",
+      "CSE 2115": "Object Oriented Programming",
+      "CSE 2116": "Object Oriented Programming Laboratory",
+      "CSE 2111": "Digital Logic Design",
+      "CSE 2112": "Digital Logic Design Laboratory",
+      "CSE 2117": "Discrete Mathematics",
+      "MATH 2105": "Linear Algebra, Laplace Transformation and Fourier Analysis"
+    }
+  },
+  {
+    "batch": "64",
+    "section": "A",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3217 SB Ro-517",
+          "course": "CSE 3217",
+          "teacher": "SB",
+          "room": "517"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3218 SB Ro-228",
+          "course": "CSE 3218",
+          "teacher": "SB",
+          "room": "228"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3211 TC Ro-225",
+          "course": "CSE 3211",
+          "teacher": "TC",
+          "room": "225"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 3219  RS Ro-225",
+          "course": "CSE 3219",
+          "teacher": "RS",
+          "room": "225"
+        },
+        {
+          "time": "01:30 - 02:50",
+          "raw": "CSE 3215 SA Ro-226",
+          "course": "CSE 3215",
+          "teacher": "SA",
+          "room": "226"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3213 MSH Ro-226",
+          "course": "CSE 3213",
+          "teacher": "MSH",
+          "room": "226"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3217 SB Ro-138",
+          "course": "CSE 3217",
+          "teacher": "SB",
+          "room": "138"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3212 TC Ro- 228",
+          "course": "CSE 3212",
+          "teacher": "TC",
+          "room": "228"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3216 SA Ro-213",
+          "course": "CSE 3216",
+          "teacher": "SA",
+          "room": "213"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3211 TC Ro-225",
+          "course": "CSE 3211",
+          "teacher": "TC",
+          "room": "225"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 3219  RS Ro-225",
+          "course": "CSE 3219",
+          "teacher": "RS",
+          "room": "225"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 3215 SA Ro-226",
+          "course": "CSE 3215",
+          "teacher": "SA",
+          "room": "226"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3213 MSH Ro-226",
+          "course": "CSE 3213",
+          "teacher": "MSH",
+          "room": "226"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "NS": "Nazneen Islam",
+      "RS": "Rafia Sultana",
+      "MSH": "Md. Showrov Hossen",
+      "SGJ": "Sraboni Ghosh Joya",
+      "MSM": "Monoara Sultana Morzina"
+    },
+    "courses": {
+      "CSE 3200": "Software Development \nProject II (Capstone Course)",
+      "CSE 3217": "Computer Networks and Security",
+      "CSE 3218": "Computer Networks and Security Laboratory",
+      "CSE 3219": "Compiler Design",
+      "CSE 3213": "Computer Architecture",
+      "CSE 3211": "Microprocessors,\nMicrocontrollers and Assembly Language",
+      "CSE 3212": "Microprocessors, Microcontrollers and Assembly Language Laboratory",
+      "CSE 3215": "System Analysis & Design",
+      "CSE 3216": "System Analysis & Design Laboratory"
+    }
+  },
+  {
+    "batch": "63",
+    "section": "C",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 4117 MFB R-308",
+          "course": "CSE 4117",
+          "teacher": "MFB",
+          "room": "R-308"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 4115 NSA R-232",
+          "course": "CSE 4115",
+          "teacher": "NSA",
+          "room": "R-232"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 4143 MSM R-232",
+          "course": "CSE 4143",
+          "teacher": "MSM",
+          "room": "R-232"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4112 SA R-221",
+          "course": "CSE 4112",
+          "teacher": "SA",
+          "room": "R-221"
+        },
+        {
+          "time": "01:30 - 02:50",
+          "raw": "CSE 4141 SuM Ro-314",
+          "course": "CSE 4141",
+          "teacher": "SuM",
+          "room": "314"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "CSE 4111 SA R- 211",
+          "course": "CSE 4111",
+          "teacher": "SA",
+          "room": "R- 211"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4116 NSA R-220",
+          "course": "CSE 4116",
+          "teacher": "NSA",
+          "room": "R-220"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 4117 MFB R- 308",
+          "course": "CSE 4117",
+          "teacher": "MFB",
+          "room": "R- 308"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 4115 NSA R-232",
+          "course": "CSE 4115",
+          "teacher": "NSA",
+          "room": "R-232"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 4143 MSM R-232",
+          "course": "CSE 4143",
+          "teacher": "MSM",
+          "room": "R-232"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4118 MFB R-220",
+          "course": "CSE 4118",
+          "teacher": "MFB",
+          "room": "R-220"
+        },
+        {
+          "time": "01:30 - 02:50",
+          "raw": "CSE 4141 SuM Ro-314",
+          "course": "CSE 4141",
+          "teacher": "SuM",
+          "room": "314"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "CSE 4111 SA R-211",
+          "course": "CSE 4111",
+          "teacher": "SA",
+          "room": "R-211"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "SA": "Sharmin Akter",
+      "MSM": "Monoara Sultana Morzina",
+      "MFB": "Maysha Fhamida Bristy",
+      "SuM": "Suraiya Mahmuda",
+      "KRS": "Kazi Rubaiyat Shahriar Rhaman"
+    },
+    "courses": {
+      "CSE4000": "Thesis/Project",
+      "CSE 4111": "Digital System Design",
+      "CSE 4112": "Digital System Design Laboratory",
+      "CSE 4115": "Software Engineering",
+      "CSE 4116": "Software Engineering Laboratory",
+      "CSE 4117": "Artificial Intelligence",
+      "CSE 4118": "Artificial Intelligence Laboratory",
+      "CSE 4141": "Computer Simulation & Modeling",
+      "CSE 4143": "Software Quality Assurance"
+    }
+  },
+  {
+    "batch": "64",
+    "section": "B",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3216 JF Ro-221 [9-11:00]",
+          "course": "CSE 3216",
+          "teacher": "JF",
+          "room": "221 [9-11:00]"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3215 JF Ro-513",
+          "course": "CSE 3215",
+          "teacher": "JF",
+          "room": "513"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3211 SBJ Ro-312",
+          "course": "CSE 3211",
+          "teacher": "SBJ",
+          "room": "312"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3217 SH Ro-211",
+          "course": "CSE 3217",
+          "teacher": "SH",
+          "room": "211"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 3213 MSH Ro-135",
+          "course": "CSE 3213",
+          "teacher": "MSH",
+          "room": "135"
+        },
+        {
+          "time": "01:30 - 02:50",
+          "raw": "CSE 3219 RS Ro 225",
+          "course": "CSE 3219",
+          "teacher": "RS Ro 225",
+          "room": ""
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3219  RS Ro-225",
+          "course": "CSE 3219",
+          "teacher": "RS",
+          "room": "225"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3215 JF Ro-212",
+          "course": "CSE 3215",
+          "teacher": "JF",
+          "room": "212"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3218 SH Ro-212",
+          "course": "CSE 3218",
+          "teacher": "SH",
+          "room": "212"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3211 SBJRo-312",
+          "course": "CSE 3211",
+          "teacher": "",
+          "room": "SBJ312"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3217 SH Ro-211",
+          "course": "CSE 3217",
+          "teacher": "SH",
+          "room": "211"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "CSE 3213 MSH Ro-112",
+          "course": "CSE 3213",
+          "teacher": "MSH",
+          "room": "112"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3212 SBJ Ro-212",
+          "course": "CSE 3212",
+          "teacher": "SBJ",
+          "room": "212"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "SH": "Sabbir Hossen",
+      "RS": "Rafia Sultana",
+      "MSH": "Md. Showrov Hossen",
+      "SBJ": "Sraboni Ghosh Joya",
+      "JF": "Jannatul Ferdos"
+    },
+    "courses": {
+      "CSE 3200": "Software Development \nProject II (Capstone Course)",
+      "CSE 3217": "Computer Networks and Security",
+      "CSE 3218": "Computer Networks and Security Laboratory",
+      "CSE 3219": "Compiler Design",
+      "CSE 3213": "Computer Architecture",
+      "CSE 3211": "Microprocessors,\nMicrocontrollers and Assembly Language",
+      "CSE 3212": "Microprocessors, Microcontrollers and Assembly Language Laboratory",
+      "CSE 3215": "System Analysis & Design",
+      "CSE 3216": "System Analysis & Design Laboratory"
+    }
+  },
+  {
+    "batch": "66",
+    "section": "B",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 11:45",
+          "raw": "CSE 2214 SM Ro-213",
+          "course": "CSE 2214",
+          "teacher": "SM",
+          "room": "213"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "EEE 2203 SAR Ro-112",
+          "course": "EEE 2203",
+          "teacher": "SAR",
+          "room": "112"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 2215 MFB Ro-314",
+          "course": "CSE 2215",
+          "teacher": "MFB",
+          "room": "314"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 2217 NS Ro-224",
+          "course": "CSE 2217",
+          "teacher": "NS",
+          "room": "224"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "01:30 - 02:50",
+          "raw": "CSE 2213 SM Ro-211",
+          "course": "CSE 2213",
+          "teacher": "SM",
+          "room": "211"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "MATH 2207 TBA Ro-311",
+          "course": "MATH 2207",
+          "teacher": "TBA",
+          "room": "311"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 11:45",
+          "raw": "EEE 2204 SAR Ro-112",
+          "course": "EEE 2204",
+          "teacher": "SAR",
+          "room": "112"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "EEE 2203 SAR Ro-112",
+          "course": "EEE 2203",
+          "teacher": "SAR",
+          "room": "112"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "CSE 2217 NS Ro-224",
+          "course": "CSE 2217",
+          "teacher": "NS",
+          "room": "224"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 11:45",
+          "raw": "CSE 2216 MFB Ro-221",
+          "course": "CSE 2216",
+          "teacher": "MFB",
+          "room": "221"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 2215 MFB Ro-416",
+          "course": "CSE 2215",
+          "teacher": "MFB",
+          "room": "416"
+        },
+        {
+          "time": "01:30 - 02:50",
+          "raw": "CSE 2213 SM Ro-211",
+          "course": "CSE 2213",
+          "teacher": "SM",
+          "room": "211"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "MATH 2207 TBA Ro-311",
+          "course": "MATH 2207",
+          "teacher": "TBA",
+          "room": "311"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "SAR": "Sharifa Akter Rukaia",
+      "SM": "Shikha Moni",
+      "TA": "Tanzila Akter",
+      "NS": "Nila Sultana"
+    },
+    "courses": {
+      "CSE 2200": "Software Development Project I (Capstone Course)",
+      "MATH 2207": "Statistics & Probability",
+      "EEE2203": "Electronic Circuit",
+      "EEE 2204": "Electronic Circuit Laboratory",
+      "CSE 2213": "Data Structure",
+      "CSE 2214": "Data Structure Laboratory",
+      "CSE 2215": "Numerical Analysis",
+      "CSE 2216": "Numerical Analysis Laboratory",
+      "CSE 2217": "Data Communication",
+      "Total": "Total"
+    }
+  },
+  {
+    "batch": "63",
+    "section": "B",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4111 SA R- 314",
+          "course": "CSE 4111",
+          "teacher": "SA",
+          "room": "R- 314"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4118 RS R-221",
+          "course": "CSE 4118",
+          "teacher": "RS",
+          "room": "R-221"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 4117 RS R-226",
+          "course": "CSE 4117",
+          "teacher": "RS",
+          "room": "R-226"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4141 MSM R-225",
+          "course": "CSE 4141",
+          "teacher": "MSM",
+          "room": "R-225"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4115 SuM R-312",
+          "course": "CSE 4115",
+          "teacher": "SuM",
+          "room": "R-312"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 4143 MSM R-312",
+          "course": "CSE 4143",
+          "teacher": "MSM",
+          "room": "R-312"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4111 SA R- 314",
+          "course": "CSE 4111",
+          "teacher": "SA",
+          "room": "R- 314"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4112 SA R-220",
+          "course": "CSE 4112",
+          "teacher": "SA",
+          "room": "R-220"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 4117 RS R- 226",
+          "course": "CSE 4117",
+          "teacher": "RS",
+          "room": "R- 226"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4116 SuM R-220",
+          "course": "CSE 4116",
+          "teacher": "SuM",
+          "room": "R-220"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4115 SuM R-312",
+          "course": "CSE 4115",
+          "teacher": "SuM",
+          "room": "R-312"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 4143 MSM R-312",
+          "course": "CSE 4143",
+          "teacher": "MSM",
+          "room": "R-312"
+        },
+        {
+          "time": "01:30 - 02:50",
+          "raw": "CSE 4141 MSM R-311",
+          "course": "CSE 4141",
+          "teacher": "MSM",
+          "room": "R-311"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "SA": "Sharmin Akter",
+      "SuM": "Suraiya Mahmuda",
+      "RS": "Rafia Sultana",
+      "ASM": "Alifa Shanzidah Manarat"
+    },
+    "courses": {
+      "CSE4000": "Thesis/Project",
+      "CSE 4111": "Digital System Design",
+      "CSE 4112": "Digital System Design Laboratory",
+      "CSE 4115": "Software Engineering",
+      "CSE 4116": "Software Engineering Laboratory",
+      "CSE 4117": "Artificial Intelligence",
+      "CSE 4118": "Artificial Intelligence Laboratory",
+      "CSE 4141": "Computer Simulation & Modeling",
+      "CSE 4143": "Software Quality Assurance"
+    }
+  },
+  {
+    "batch": "65",
+    "section": "C",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3115  ASM Ro-312",
+          "course": "CSE 3115",
+          "teacher": "ASM",
+          "room": "312"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3111 MAM Ro-312",
+          "course": "CSE 3111",
+          "teacher": "MAM",
+          "room": "312"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3117 MAH Ro-312",
+          "course": "CSE 3117",
+          "teacher": "MAH",
+          "room": "312"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3112 MAM Ro-213",
+          "course": "CSE 3112",
+          "teacher": "MAM",
+          "room": "213"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "ME 3101 TBA Ro-223",
+          "course": "ME 3101",
+          "teacher": "TBA",
+          "room": "223"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3119 KJH Ro-416",
+          "course": "CSE 3119",
+          "teacher": "KJH",
+          "room": "416"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3116 ASM  Ro-213",
+          "course": "CSE 3116",
+          "teacher": "ASM",
+          "room": "213"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3115  ASM Ro-312",
+          "course": "CSE 3115",
+          "teacher": "ASM",
+          "room": "312"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3111 MAM Ro-312",
+          "course": "CSE 3111",
+          "teacher": "MAM",
+          "room": "312"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3117 MAH Ro-312",
+          "course": "CSE 3117",
+          "teacher": "MAH",
+          "room": "312"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "ME 3101 TBA Ro-223",
+          "course": "ME 3101",
+          "teacher": "TBA",
+          "room": "223"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3119 KJH Ro-311",
+          "course": "CSE 3119",
+          "teacher": "KJH",
+          "room": "311"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3210 SuM Ro-212",
+          "course": "CSE 3210",
+          "teacher": "SuM",
+          "room": "212"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3118 MAH Ro-220",
+          "course": "CSE 3118",
+          "teacher": "MAH",
+          "room": "220"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "TBA": "",
+      "SuM": "Suraiya Mahmuda",
+      "ASM": "Alifa Shanzidah Manarat",
+      "MAM": "MD.Al Amin Mridha",
+      "MAH": "Md . Akash Hosen",
+      "KJH": "Kazi Jayed Haider"
+    },
+    "courses": {
+      "ME 3101": "Basic Mechanical Engineering",
+      "CSE 3210": "Computer Graphics Lab",
+      "CSE 3115": "Algorithms",
+      "CSE 3116": "Algorithms Laboratory",
+      "CSE 3111": "Database Management System",
+      "CSE 3112": "Database Management System Laboratory",
+      "CSE 3117": "Operating System",
+      "CSE 3118": "Operating System Laboratory",
+      "CSE 3119": "Theory of Computing"
+    }
+  },
+  {
+    "batch": "63",
+    "section": "A",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4117 MSH R- 211",
+          "course": "CSE 4117",
+          "teacher": "MSH",
+          "room": "R- 211"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 4143 SuM R-213",
+          "course": "CSE 4143",
+          "teacher": "SuM",
+          "room": "R-213"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 4118 MSH R-221",
+          "course": "CSE 4118",
+          "teacher": "MSH",
+          "room": "R-221"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4111 SA R- 311",
+          "course": "CSE 4111",
+          "teacher": "SA",
+          "room": "R- 311"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4116 JF R-220",
+          "course": "CSE 4116",
+          "teacher": "JF",
+          "room": "R-220"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 4117 MSH R-312",
+          "course": "CSE 4117",
+          "teacher": "MSH",
+          "room": "R-312"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4115 NSA R-211",
+          "course": "CSE 4115",
+          "teacher": "NSA",
+          "room": "R-211"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 4143 SuM R-224",
+          "course": "CSE 4143",
+          "teacher": "SuM",
+          "room": "R-224"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 4115 JF R-314",
+          "course": "CSE 4115",
+          "teacher": "JF",
+          "room": "R-314"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "CSE 4141 ASM R-222",
+          "course": "CSE 4141",
+          "teacher": "ASM",
+          "room": "R-222"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4111 SA R-311",
+          "course": "CSE 4111",
+          "teacher": "SA",
+          "room": "R-311"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4112 SA R-221",
+          "course": "CSE 4112",
+          "teacher": "SA",
+          "room": "R-221"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "CSE 4141 ASM R-312",
+          "course": "CSE 4141",
+          "teacher": "ASM",
+          "room": "R-312"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "SA": "Sharmin Akter",
+      "JF": "Jannatul Ferdos",
+      "MSH": "Md. Showrov Hossen",
+      "ASM": "Alifa Shanzidah Manarat",
+      "SuM": "Suraiya Mahmuda"
+    },
+    "courses": {
+      "CSE4000": "Thesis/Project",
+      "CSE 4111": "Digital System Design",
+      "CSE 4112": "Digital System Design Laboratory",
+      "CSE 4115": "Software Engineering",
+      "CSE 4116": "Software Engineering Laboratory",
+      "CSE 4117": "Artificial Intelligence",
+      "CSE 4118": "Artificial Intelligence Laboratory",
+      "CSE 4141": "Computer Simulation & Modeling",
+      "CSE 4143": "Software Quality Assurance"
+    }
+  },
+  {
+    "batch": "67",
+    "section": "A",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 2117 Sm  Ro-225",
+          "course": "CSE 2117",
+          "teacher": "Sm",
+          "room": "225"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "MATH 2105  APR Ro-225",
+          "course": "MATH 2105",
+          "teacher": "APR",
+          "room": "225"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 2115 MAI Ro- 225",
+          "course": "CSE 2115",
+          "teacher": "MAI",
+          "room": "225"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "CSE 2111 SM Ro-225",
+          "course": "CSE 2111",
+          "teacher": "SM",
+          "room": "225"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 11:45",
+          "raw": "CSE 2116 MAI Ro-212",
+          "course": "CSE 2116",
+          "teacher": "MAI",
+          "room": "212"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "HIST 2105 JPK R\u2013211",
+          "course": "HIST 2105",
+          "teacher": "JPK R\u2013211",
+          "room": ""
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CE 2104 TBA Ro-416",
+          "course": "CE 2104",
+          "teacher": "TBA",
+          "room": "416"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 2117 Sm  Ro-225",
+          "course": "CSE 2117",
+          "teacher": "Sm",
+          "room": "225"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "MATH 2105 APR Ro-225",
+          "course": "MATH 2105",
+          "teacher": "APR",
+          "room": "225"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 2115 MAI Ro- 225",
+          "course": "CSE 2115",
+          "teacher": "MAI",
+          "room": "225"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "CSE 2111 SM  Ro-225",
+          "course": "CSE 2111",
+          "teacher": "SM",
+          "room": "225"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 11:45",
+          "raw": "CSE 2112 SM Ro-112",
+          "course": "CSE 2112",
+          "teacher": "SM",
+          "room": "112"
+        },
+        {
+          "time": "11:50 - 01:10",
+          "raw": "HIST 2105 JPK R-211",
+          "course": "HIST 2105",
+          "teacher": "JPK",
+          "room": "R-211"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "EPE 2101  Ro-223 O Tues",
+          "course": "EPE 2101",
+          "teacher": "",
+          "room": "223 O Tues"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "EPE 2101  Ro-223 O Sat",
+          "course": "EPE 2101",
+          "teacher": "",
+          "room": "223 O Sat"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "MTH": "Md. Tasnim Hassan",
+      "JPK": "Jebonnesa Pathan Kallani",
+      "KRSR": "Kazi Rubaiyat Shahriar Rhaman",
+      "SM": "Tahmid Enam Shresth",
+      "APR": "Anwar Parvez Rony"
+    },
+    "courses": {
+      "CE  2104": "Engineering Drawing Laboratory",
+      "EPE 2101": "Engineering Professional Ethics",
+      "HIST 2105": "Bangladesh Studies",
+      "CSE 2115": "Object Oriented Programming",
+      "CSE 2116": "Object Oriented Programming Laboratory",
+      "CSE 2111": "Digital Logic Design",
+      "CSE 2112": "Digital Logic Design Laboratory",
+      "CSE 2117": "Discrete Mathematics",
+      "MATH 2105": "Linear Algebra, Laplace Transformation and Fourier Analysis"
+    }
+  },
+  {
+    "batch": "65",
+    "section": "B",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "10:25-11:45",
+          "raw": "ME 3101 TBA R-314",
+          "course": "ME 3101",
+          "teacher": "TBA",
+          "room": "R-314"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3111 MAM  R-314",
+          "course": "CSE 3111",
+          "teacher": "MAM",
+          "room": "R-314"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3118 SMAR Ro-220",
+          "course": "CSE 3118",
+          "teacher": "SMAR",
+          "room": "220"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3115 FRA Ro-226",
+          "course": "CSE 3115",
+          "teacher": "FRA",
+          "room": "226"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3119 IM R-226",
+          "course": "CSE 3119",
+          "teacher": "IM",
+          "room": "R-226"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3117 SMAR R-226",
+          "course": "CSE 3117",
+          "teacher": "SMAR",
+          "room": "R-226"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3112 MAM  R- 212",
+          "course": "CSE 3112",
+          "teacher": "MAM",
+          "room": "R- 212"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3210 TBA 4 Ro-213",
+          "course": "CSE 3210",
+          "teacher": "TBA 4",
+          "room": "213"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "ME 3101 TBA R-314",
+          "course": "ME 3101",
+          "teacher": "TBA",
+          "room": "R-314"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3111 MAM  R-314",
+          "course": "CSE 3111",
+          "teacher": "MAM",
+          "room": "R-314"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3115 FRA Ro-226",
+          "course": "CSE 3115",
+          "teacher": "FRA",
+          "room": "226"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3119 IM R-226",
+          "course": "CSE 3119",
+          "teacher": "IM",
+          "room": "R-226"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3117 SMAR R-226",
+          "course": "CSE 3117",
+          "teacher": "SMAR",
+          "room": "R-226"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3116 FRA Ro-221",
+          "course": "CSE 3116",
+          "teacher": "FRA",
+          "room": "221"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "SH": "Sabbir Hossen",
+      "FRA": "Faria Rahman Annasha",
+      "SBJ": "Sraboni Ghosh Joya",
+      "SMAR": "S M Anisur Rahman",
+      "MKH": "Md . Akash Hosen"
+    },
+    "courses": {
+      "ME 3101": "Basic Mechanical Engineering",
+      "CSE 3210": "Computer Graphics Lab",
+      "CSE 3115": "Algorithms",
+      "CSE 3116": "Algorithms Laboratory",
+      "CSE 3111": "Database Management System",
+      "CSE 3112": "Database Management System Laboratory",
+      "CSE 3117": "Operating System",
+      "CSE 3118": "Operating System Laboratory",
+      "CSE 3119": "Theory of Computing"
+    }
+  },
+  {
+    "batch": "62",
+    "section": "OK",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4247 AB R:220",
+          "course": "CSE 4247",
+          "teacher": "AB R:220",
+          "room": ""
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4248 AB R:220",
+          "course": "CSE 4248",
+          "teacher": "AB R:220",
+          "room": ""
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 4251 NSA R:224",
+          "course": "CSE 4251",
+          "teacher": "NSA R:224",
+          "room": ""
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4251 NSA R:224",
+          "course": "CSE 4251",
+          "teacher": "NSA R:224",
+          "room": ""
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 4247 AB R:213",
+          "course": "CSE 4247",
+          "teacher": "AB R:213",
+          "room": ""
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 4251 NSA R:220",
+          "course": "CSE 4251",
+          "teacher": "NSA R:220",
+          "room": ""
+        }
+      ],
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "AB": "MD. Ataullah Bhuiyan",
+      "NSA": "Naima Sultana Ayesha"
+    },
+    "courses": {
+      "CSE 4000": "Thesis/Project",
+      "CSE 4247": "Web Development Programming",
+      "CSE 4248": "Web Development Programming Laboratory",
+      "CSE 4251": "Advanced Enterprise Java",
+      "CSE 4252": "Advanced Enterprise Java Laboratory"
+    }
+  },
+  {
+    "batch": "65",
+    "section": "A",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3115  FRA Ro-226",
+          "course": "CSE 3115",
+          "teacher": "FRA",
+          "room": "226"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3117 SMAR Ro-226",
+          "course": "CSE 3117",
+          "teacher": "SMAR",
+          "room": "226"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3111 RR Ro-226",
+          "course": "CSE 3111",
+          "teacher": "RR",
+          "room": "226"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3112 RR Ro-212",
+          "course": "CSE 3112",
+          "teacher": "RR",
+          "room": "212"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "ME 3101 TBA Ro-314",
+          "course": "ME 3101",
+          "teacher": "TBA",
+          "room": "314"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3119 IM Ro-311",
+          "course": "CSE 3119",
+          "teacher": "IM",
+          "room": "311"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3210 Ro-212",
+          "course": "CSE 3210",
+          "teacher": "",
+          "room": "212"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3116 FRA  Ro-221",
+          "course": "CSE 3116",
+          "teacher": "FRA",
+          "room": "221"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 3115  FRA Ro-226",
+          "course": "CSE 3115",
+          "teacher": "FRA",
+          "room": "226"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 3117 SMAR Ro-226",
+          "course": "CSE 3117",
+          "teacher": "SMAR",
+          "room": "226"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3111 RR Ro-226",
+          "course": "CSE 3111",
+          "teacher": "RR",
+          "room": "226"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 3118 SMAR Ro-220",
+          "course": "CSE 3118",
+          "teacher": "SMAR",
+          "room": "220"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "ME 3101 TBA Ro-314",
+          "course": "ME 3101",
+          "teacher": "TBA",
+          "room": "314"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 3119 IM Ro-314",
+          "course": "CSE 3119",
+          "teacher": "IM",
+          "room": "314"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "TBA": "",
+      "MH": "Nila Sultana",
+      "FRA": "Faria Rahman Annasha",
+      "RR": "Ramisa Rahman",
+      "SMAR": "S M Anisur Rahman",
+      "IM": "Kazi Jayed Haider"
+    },
+    "courses": {
+      "ME 3101": "Basic Mechanical Engineering",
+      "CSE 3210": "Computer Graphics Lab",
+      "CSE 3115": "Algorithms",
+      "CSE 3116": "Algorithms Laboratory",
+      "CSE 3111": "Database Management System",
+      "CSE 3112": "Database Management System Laboratory",
+      "CSE 3117": "Operating System",
+      "CSE 3118": "Operating System Laboratory",
+      "CSE 3119": "Theory of Computing"
+    }
+  },
+  {
+    "batch": "63",
+    "section": "D",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4115 TES R-212",
+          "course": "CSE 4115",
+          "teacher": "TES",
+          "room": "R-212"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4117 MSH R- 135",
+          "course": "CSE 4117",
+          "teacher": "MSH",
+          "room": "R- 135"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 4143 MSM R-514",
+          "course": "CSE 4143",
+          "teacher": "MSM",
+          "room": "R-514"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4111 SA R- 211",
+          "course": "CSE 4111",
+          "teacher": "SA",
+          "room": "R- 211"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4115 TES R-314",
+          "course": "CSE 4115",
+          "teacher": "TES",
+          "room": "R-314"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 4143 MSM R-112",
+          "course": "CSE 4143",
+          "teacher": "MSM",
+          "room": "R-112"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "CSE 4141 SuM R-232",
+          "course": "CSE 4141",
+          "teacher": "SuM",
+          "room": "R-232"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 4116 TES R-221",
+          "course": "CSE 4116",
+          "teacher": "TES",
+          "room": "R-221"
+        },
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4117 MSH R-135",
+          "course": "CSE 4117",
+          "teacher": "MSH",
+          "room": "R-135"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 4112 SA R-213",
+          "course": "CSE 4112",
+          "teacher": "SA",
+          "room": "R-213"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "10:25 - 01:10",
+          "raw": "CSE 4118 MSH R-213",
+          "course": "CSE 4118",
+          "teacher": "MSH",
+          "room": "R-213"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 4111 RM R-312",
+          "course": "CSE 4111",
+          "teacher": "RM",
+          "room": "R-312"
+        },
+        {
+          "time": "03:00-04:20",
+          "raw": "CSE 4141 SuM R-226",
+          "course": "CSE 4141",
+          "teacher": "SuM",
+          "room": "R-226"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      "RM": "Ramisa Rahman",
+      "TES": "Tahmid Enam Shrestha",
+      "SuM": "Suraiya Mahmuda"
+    },
+    "courses": {
+      "CSE4000": "Thesis/Project",
+      "CSE 4111": "Digital System Design",
+      "CSE 4112": "Digital System Design Laboratory",
+      "CSE 4115": "Software Engineering",
+      "CSE 4116": "Software Engineering Laboratory",
+      "CSE 4117": "Artificial Intelligence",
+      "CSE 4118": "Artificial Intelligence Laboratory",
+      "CSE 4141": "Computer Simulation & Modeling",
+      "CSE 4143": "Software Quality Assurance"
+    }
+  },
+  {
+    "batch": "66",
+    "section": "A",
+    "schedule": {
+      "Saturday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 11:45",
+          "raw": "EEE 2204 HKK Ro-112",
+          "course": "EEE 2204",
+          "teacher": "HKK",
+          "room": "112"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "MATH 2207 TBA Ro-311",
+          "course": "MATH 2207",
+          "teacher": "TBA",
+          "room": "311"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 2213 MH Ro-311",
+          "course": "CSE 2213",
+          "teacher": "MH",
+          "room": "311"
+        }
+      ],
+      "Sunday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "EEE 2203 HKK Ro-139",
+          "course": "EEE 2203",
+          "teacher": "HKK",
+          "room": "139"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 2217 NS Ro-223",
+          "course": "CSE 2217",
+          "teacher": "NS",
+          "room": "223"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "CSE 2215 MFB Ro-314",
+          "course": "CSE 2215",
+          "teacher": "MFB",
+          "room": "314"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "EEE 2203 HKK Ro-311",
+          "course": "EEE 2203",
+          "teacher": "HKK",
+          "room": "311"
+        }
+      ],
+      "Monday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20) - 11:45",
+          "raw": "CSE 2216 MFB Ro-212",
+          "course": "CSE 2216",
+          "teacher": "MFB",
+          "room": "212"
+        },
+        {
+          "time": "11:50-01:10",
+          "raw": "MATH 2207 TBA Ro-311",
+          "course": "MATH 2207",
+          "teacher": "TBA",
+          "room": "311"
+        },
+        {
+          "time": "01:30-02:50",
+          "raw": "CSE 2213 MH Ro-311",
+          "course": "CSE 2213",
+          "teacher": "MH",
+          "room": "311"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": "Subject Code Room No (09:00 \u2013 10 :20)",
+          "raw": "CSE 2217 NS Ro-225",
+          "course": "CSE 2217",
+          "teacher": "NS",
+          "room": "225"
+        },
+        {
+          "time": "10:25-11:45",
+          "raw": "CSE 2215 MFB Ro-223",
+          "course": "CSE 2215",
+          "teacher": "MFB",
+          "room": "223"
+        },
+        {
+          "time": "01:30 - 04:20",
+          "raw": "CSE 2214 MH Ro-213",
+          "course": "CSE 2214",
+          "teacher": "MH",
+          "room": "213"
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": []
+    },
+    "teachers": {
+      ".HKK": "Humayun Kabir Khan",
+      "NS": "Nila Sultana",
+      "MFB": "Maysha Famidha"
+    },
+    "courses": {
+      "CSE 2200": "Software Development Project I (Capstone Course)",
+      "MATH 2207": "Statistics & Probability",
+      "EEE2203": "Electronic Circuit",
+      "EEE 2204": "Electronic Circuit Laboratory",
+      "CSE 2213": "Data Structure",
+      "CSE 2214": "Data Structure Laboratory",
+      "CSE 2215": "Numerical Analysis",
+      "CSE 2216": "Numerical Analysis Laboratory",
+      "CSE 2217": "Data Communication",
+      "Total": "Total"
+    }
+  }
+]
