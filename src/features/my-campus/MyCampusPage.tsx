@@ -89,7 +89,7 @@ export function MyCampusPage() {
         const compSnap = await getCountFromServer(compQuery);
         setComplaintsCount(compSnap.data().count);
 
-        const eventQuery = query(collection(db, 'savedEvents'), where('userId', '==', user.uid));
+        const eventQuery = query(collection(db, 'eventRegistrations'), where('userId', '==', user.uid));
         const eventSnap = await getCountFromServer(eventQuery);
         setEventsCount(eventSnap.data().count);
 

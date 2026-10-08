@@ -48,7 +48,7 @@ export function DashboardPage() {
     if (user?.uid) {
       const fetchMyEvents = async () => {
         try {
-          const eventQuery = query(collection(db, 'savedEvents'), where('userId', '==', user.uid));
+          const eventQuery = query(collection(db, 'eventRegistrations'), where('userId', '==', user.uid));
           const eventSnap = await getCountFromServer(eventQuery);
           setMyEventsCount(eventSnap.data().count);
         } catch (e) {}
