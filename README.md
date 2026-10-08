@@ -152,3 +152,19 @@ Built for the **CPCCU AI-Powered Web App Development & Deployment Hackathon 2026
 
 *CU Compass — Built with ❤️ for City University*
 
+
+## Screenshots
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="screenshots/screenshot-20261008-161025.png" width="400" />
+  <img src="screenshots/screenshot-20261008-161601.png" width="400" />
+  <img src="screenshots/screenshot-20261008-161931.png" width="400" />
+  <img src="screenshots/screenshot-20261008-162038.png" width="400" />
+  <img src="screenshots/screenshot-20261008-162131.png" width="400" />
+  <img src="screenshots/screenshot-20261008-162256.png" width="400" />
+  <img src="screenshots/screenshot-20261008-162313.png" width="400" />
+  <img src="screenshots/screenshot-20261008-162705.png" width="400" />
+  <img src="screenshots/screenshot-20261008-162833.png" width="400" />
+  <img src="screenshots/screenshot-20261008-162920.png" width="400" />
+  <img src="screenshots/screenshot-20261008-162948.png" width="400" />
+</div>
